@@ -12,9 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -27,19 +25,23 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
 Without any hovering: 
+
 ![Screenshot 2022-12-18 at 11 43 59](https://user-images.githubusercontent.com/102190049/208299071-e1cb9190-8403-4420-88c9-0f2ebdbadb38.png)
 
 When you hover on the NFT image: 
+
 ![Screenshot 2022-12-18 at 13 16 46](https://user-images.githubusercontent.com/102190049/208299074-a5d60aa6-cfed-44f9-8d7f-7dee84a67c96.png)
 
 
 When you hover on the tittle: 
+
 ![Screenshot 2022-12-18 at 13 17 04](https://user-images.githubusercontent.com/102190049/208299077-9bbd8944-83c6-46da-9497-2b5328c48635.png)
 
 When you hover on the name: 
+
 ![Screenshot 2022-12-18 at 13 17 16](https://user-images.githubusercontent.com/102190049/208299079-6e161f3b-0ddb-49e1-8e89-27f615e9307e.png)
 
 
