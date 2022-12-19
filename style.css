@@ -98,6 +98,10 @@ body {
   margin-bottom: 1rem; /* Set margin */
 }
 
+h1 {
+  margin: -1rem -1.5rem -1.5rem 0; /* Set margin */
+}
+
 /* Set styles for elements with big class */
 .big {
   font-family: "Outfit", sans-serif; /* Set font family */
