@@ -196,13 +196,14 @@ p {
 }
 
 /* Set styles for elements with attribution class */
-.attribution {
+.footer {
   margin-top: 2.5rem; /* Set margin */
+  text-align: center; /* Set
 }
 
 @media (max-width: 374px) {
   /* Mobile-specific styles go here */
-  .attribution {
+  .footer {
     font-size: 0.75rem;
     margin-top: 0.3125rem;
   }
