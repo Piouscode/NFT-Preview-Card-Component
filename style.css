@@ -40,10 +40,10 @@ body {
 }
 
 /* Set styles for the container class */
-.container {
+.main {
   position: absolute; /* Set position to absolute */
-  width: 350px; /* Set width */
-  height: 596px; /* Set height */
+  width: 21.875rem; /* Set width */
+  height: 37.25rem; /* Set height */
   top: 50%; /* Set top position to 50% */
   left: 50%; /* Set left position to 50% */
   transform: translate(-50%, -50%); /* Center the element */
@@ -54,14 +54,14 @@ body {
 /* Set styles for the mainImage class */
 .mainImage {
   position: relative; /* Set position to relative */
-  padding: 24px; /* Set padding */
+  padding: 1.5rem; /* Set padding */
 }
 
 /* Set styles for the diamond class */
 .diamond {
-  width: 302px; /* Set width */
-  height: 302px; /* Set height */
-  border-radius: 8px; /* Set border radius */
+  width: 18.875rem; /* Set width */
+  height: 18.875rem; /* Set height */
+  border-radius: 0.5rem; /* Set border radius */
 }
 
 /* Set styles for div elements within mainImage class */
@@ -69,9 +69,9 @@ body {
   position: absolute; /* Set position to absolute */
   background-color: hsl(178, 100%, 50%, 60%); /* Set background color */
   top: 0; /* Set top position to 0 */
-  width: 302px; /* Set width */
-  height: 302px; /* Set height */
-  margin-top: 24px; /* Set margin */
+  width: 18.875rem; /* Set width */
+  height: 18.875rem; /* Set height */
+  margin-top: 1.5rem; /* Set margin */
   opacity: 0; /* Set opacity to 0 */
 }
 
@@ -79,7 +79,7 @@ body {
 .mainImage div:hover {
   opacity: 1; /* Set opacity to 1 */
   cursor: pointer; /* Change cursor to pointer */
-  border-radius: 10px; /* Set border radius */
+  border-radius: 0.625rem; /* Set border radius */
 }
 
 /* Set styles for img elements within mainImage div elements */
@@ -88,14 +88,14 @@ body {
   top: 50%; /* Set top position to 50% */
   left: 50%; /* Set left position to 50% */
   transform: translate(-50%, -50%); /* Center the element */
-  width: 48px; /* Set width */
-  height: 48px; /* Set height */
+  width: 3rem; /* Set width */
+  height: 3rem; /* Set height */
 }
 
 /* Set styles for elements with firstLine class */
 .firstLine {
-  padding: 0 24px 0 24px; /* Set padding */
-  margin-bottom: 16px; /* Set margin */
+  padding: 0 1.5rem 0 1.5rem; /* Set padding */
+  margin-bottom: 1rem; /* Set margin */
 }
 
 /* Set styles for elements with big class */
@@ -103,8 +103,8 @@ body {
   font-family: "Outfit", sans-serif; /* Set font family */
   font-style: normal; /* Set font style to normal */
   font-weight: 600; /* Set font weight to 600 */
-  font-size: 22px; /* Set font size */
-  line-height: 28px; /* Set line height */
+  font-size: 1.375rem; /* Set font size */
+  line-height: 1.75rem; /* Set line height */
   color: #ffffff; /* Set text color */
   cursor: pointer; /* Change cursor to pointer */
 }
@@ -124,8 +124,8 @@ p {
   font-family: "Outfit", sans-serif; /* Set font family */
   font-style: normal; /* Set font style to normal */
   font-weight: 300; /* Set font weight to 300 */
-  font-size: 18px; /* Set font size */
-  line-height: 26px; /* Set line height */
+  font-size: 1.125rem; /* Set font size */
+  line-height: 1.625rem; /* Set line height */
   color: #8bacd9; /* Set text color */
 }
 
@@ -133,7 +133,7 @@ p {
 .ethDays {
   display: flex; /* Set display to flex */
   justify-content: space-between; /* Set justify-content to space-between */
-  padding: 0 24px 24px 24px; /* Set padding */
+  padding: 0 1.5rem 1.5rem 1.5rem; /* Set padding */
 }
 
 /* Set styles for elements with ethereum class and days class */
@@ -145,8 +145,8 @@ p {
 
 /* Set styles for elements with ethImg class and clockSVG class */
 .ethImg, .clockSVG {
-  width: 24px; /* Set width */
-  height: 24px; /* Set height */
+  width: 1.5rem; /* Set width */
+  height: 1.5rem; /* Set height */
 }
 
 /* Set styles for elements with eTh class */
@@ -159,48 +159,48 @@ p {
   border-top: 1px solid hsl(215, 32%, 27%); /* Set border-top */
   width: 85%; /* Set width */
   margin: 0 auto; /* Set margin */
-  padding-bottom: 16px; /* Set padding */
+  padding-bottom: 1rem; /* Set padding */
 }
 
 /* Set styles for elements with julesWyvernImage class */
 .julesWyvernImage {
   display: flex; /* Set display to flex */
   justify-content: flex-start; /* Set justify-content to flex-start */
-  gap: 24px; /* Set gap */
-  margin: 0 0 0 24px; /* Set margin */
+  gap: 1.5rem; /* Set gap */
+  margin: 0 0 0 1.5rem; /* Set margin */
 }
 
 /* Set styles for elements with jules class */
 .jules {
-  width: 33px; /* Set width */
-  height: 33px; /* Set height */
+  width: 2.0625rem; /* Set width */
+  height: 2.0625rem; /* Set height */
   border: 1px solid #FFFFFF; /* Set border */
   border-radius: 50%; /* Set border radius */
 }
 
 /* Set styles for elements with textJules class */
 .textJules {
-  margin-top: 8px; /* Set margin */
+  margin-top: 0.5rem; /* Set margin */
 }
 
 /* Set styles for elements with changeColor class */
 .changeColor {
   color: #8bacd9; /* Set text color */
-  font-size: 16px; /* Set font size */
+  font-size: 1rem; /* Set font size */
   font-weight: 400; /* Set font weight */
   font-style: normal; /* Set font style to normal */
 }
 
 /* Set styles for elements with attribution class */
 .attribution {
-  margin-top: 40px; /* Set margin */
+  margin-top: 2.5rem; /* Set margin */
 }
 
 @media (max-width: 374px) {
   /* Mobile-specific styles go here */
   .attribution {
-    font-size: 12px;
-    margin-top: 5px;
+    font-size: 0.75rem;
+    margin-top: 0.3125rem;
   }
   .big:active, .julesHover:active {
     color: hsl(178, 100%, 50%); /* Set text color */
